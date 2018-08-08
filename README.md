@@ -10,7 +10,13 @@ github 地址：[https://github.com/dream-approaching/react-hoc](https://github.
   * 而是 react 组合特性衍生出来的一种设计模式
   * 其返回的组件里有自己的生命周期，可以做很多操作，即返回一个相对增强的组件
 
+### 装饰器模式
+
+es7 添加了一个 decorator 属性，使用@符号表示，可以更精简的书写<br>
+不过存在兼容性问题，通常是用 babel 编译的，详见[create-react-app + mobx 其中@observer 装饰器报错](https://segmentfault.com/q/1010000010491983)
+
 ## 参考
 
 * [https://segmentfault.com/a/1190000010371752](https://segmentfault.com/a/1190000010371752)
 * [https://github.com/sunyongjian/blog/issues/25](https://github.com/sunyongjian/blog/issues/25)
+* [create-react-app + mobx 其中@observer 装饰器报错](https://segmentfault.com/q/1010000010491983)
