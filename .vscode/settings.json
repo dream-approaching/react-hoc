@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.snippetSuggestions": "top",
+  "standard.enable": false,
+  "svn.ignoreWorkingCopyIsTooOld": true
+}
