@@ -6,5 +6,6 @@
   "emmet.triggerExpansionOnTab": true,
   "editor.snippetSuggestions": "top",
   "standard.enable": false,
-  "svn.ignoreWorkingCopyIsTooOld": true
+  "svn.ignoreWorkingCopyIsTooOld": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true
 }
