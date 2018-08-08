@@ -27,6 +27,10 @@ HOC 里定义的属性和事件等都可以通过 props 传递到  每个实例
 
 `const { handleClick } = this.props;`
 
+### 实例的获取
+
+在 hoc 中使用 ref，然后再 hoc 中可以获取到每个实例
+
 ## 参考
 
 * [https://segmentfault.com/a/1190000010371752](https://segmentfault.com/a/1190000010371752)
