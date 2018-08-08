@@ -15,6 +15,18 @@ github 地址：[https://github.com/dream-approaching/react-hoc](https://github.
 es7 添加了一个 decorator 属性，使用@符号表示，可以更精简的书写<br>
 不过存在兼容性问题，通常是用 babel 编译的，详见[create-react-app + mobx 其中@observer 装饰器报错](https://segmentfault.com/q/1010000010491983)
 
+### props 传递
+
+HOC 里定义的属性和事件等都可以通过 props 传递到  每个实例，实例中可以通过 this.props 取到<br>
+
+##### HOC:
+
+`return <Component handleClick={this.handleClick} {...this.props} />;`
+
+##### com1:
+
+`const { handleClick } = this.props;`
+
 ## 参考
 
 * [https://segmentfault.com/a/1190000010371752](https://segmentfault.com/a/1190000010371752)
