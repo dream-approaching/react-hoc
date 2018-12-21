@@ -8,6 +8,7 @@ const simpleHoc = Component => {
     }
 
     handleClick = () => {
+      console.log('111')
       const ref = this.instanceComponent;
       console.log(`${ref.constructor.name}实例点了我`);
     };
